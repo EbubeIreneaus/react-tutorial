@@ -1,11 +1,11 @@
-import HelloClass from './components/HelloClass'
-
+import Message from './components/Message'
+import Counter from './components/Counter'
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <HelloClass name="Okigwe Ebube Ireneaus" date="12/10/20002"></HelloClass>
+      <Counter />
     </div>
   );
 }
