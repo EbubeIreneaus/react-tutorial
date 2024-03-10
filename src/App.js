@@ -1,11 +1,11 @@
-import Hello from './components/Hello'
+import Hellojs from './components/Hellojs'
 import HelloClass from './components/HelloClass'
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <HelloClass />
+      <Hellojs />
     </div>
   );
 }
