@@ -4,11 +4,12 @@ import './App.css';
 import Parent from './components/Parent';
 import ListDisplay from './components/ListDisplay';
 import ObjectList from './components/ObjectList';
+import LoginForm from './components/LoginForm';
 
 function App() {
   return (
     <div className="App">
-      <ObjectList />
+      <LoginForm />
     </div>
   );
 }

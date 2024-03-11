@@ -16,9 +16,9 @@ function ObjectList() {
   return (
     <div>
       {
-        persons.map(
+        persons.map( 
             person => 
-            <div>
+            <div key={person.id}>
                 <p>Hello my name is {person.name}, I am {person.age} old years I come from {person.country}</p>
             </div>
             )
