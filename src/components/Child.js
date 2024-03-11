@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 
-export class Child extends Component {
+class Child extends Component {
    constructor(props) {
      super(props)
    
