@@ -1,3 +1,4 @@
+import React from 'react';
 import Message from './components/Message'
 import Counter from './components/Counter'
 import './App.css';
@@ -9,13 +10,25 @@ import Portal from './components/Portal';
 import ErrorPlay from './components/ErrorPlay';
 import Error from './components/Error';
 import ClickCount from './components/ClickCount';
+import CompA from './components/CompA';
+import { UserProvider } from './components/UserComp';
+import CompC from './components/CompC';
 
-function App() {
-  return (
-    <div className="App">
-      <ClickCount />
-    </div>
-  );
+
+
+class App extends React.Component {
+  render() {
+    const obj = {
+      name: 'All Typescript object'
+    }
+    return (
+      <div className='app'>
+        {/* <UserProvider value={obj}> */}
+          <CompA />
+        {/* </UserProvider> */}
+      </div>
+    )
+  }
 }
 
-export default App;
+export default App
