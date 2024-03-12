@@ -8,13 +8,12 @@ import LoginForm from './components/LoginForm';
 import Portal from './components/Portal';
 import ErrorPlay from './components/ErrorPlay';
 import Error from './components/Error';
+import ClickCount from './components/ClickCount';
 
 function App() {
   return (
     <div className="App">
-      <Error>
-        <ErrorPlay textt="errordd" />
-      </Error>
+      <ClickCount />
     </div>
   );
 }
