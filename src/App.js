@@ -6,11 +6,15 @@ import ListDisplay from './components/ListDisplay';
 import ObjectList from './components/ObjectList';
 import LoginForm from './components/LoginForm';
 import Portal from './components/Portal';
+import ErrorPlay from './components/ErrorPlay';
+import Error from './components/Error';
 
 function App() {
   return (
     <div className="App">
-      <Portal />
+      <Error>
+        <ErrorPlay textt="errordd" />
+      </Error>
     </div>
   );
 }
