@@ -5,11 +5,12 @@ import Parent from './components/Parent';
 import ListDisplay from './components/ListDisplay';
 import ObjectList from './components/ObjectList';
 import LoginForm from './components/LoginForm';
+import Portal from './components/Portal';
 
 function App() {
   return (
     <div className="App">
-      <LoginForm />
+      <Portal />
     </div>
   );
 }
